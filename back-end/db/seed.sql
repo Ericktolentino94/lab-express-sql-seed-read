@@ -1,7 +1,8 @@
 \c songs_dev;
 
-INSERT INTO songs (name, album, time, is_favorite)
+INSERT INTO songs (name, artist, album, time, is_favorite)
 VALUES
-('MDN', 'https://developer.mozilla.org/en-US/', 'educational', true),
-('Apartment Therapy', 'https://www.apartmenttherapy.com', 'inspirational', true),
-('DMV', 'https://dmv.ny.gov', 'adulting', true);
+('Clumsy', 'Fergie','The Dutches', '2006', false),
+('Around the way girl', 'LL-Cool J','Mama said Knock you Out', '1990', true),
+('Get man', '50 Cent and Eminem','The Massacre', '2005', true),
+('Hasta Abajo', 'Don Omar','Onda Latina Summer 2010', '2010', false);
