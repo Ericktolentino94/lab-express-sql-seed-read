@@ -1,8 +1,10 @@
 const express = require("express");
 const { getAllSongs, getOneSong, createOneSong, deleteSong, updateSong } = require("../queries/songs")
+const reviewsController = require("./reviewsController")
 const { checkName, checkBoolean } = require ("../validations/checkSongs")
 const songs = express.Router();
 
+songs.use("/:song_id/reviews", reviewsController)
 songs.get("/", async (req, res) => {
     const allSongs = await getAllSongs();
     if(allSongs[0]){
