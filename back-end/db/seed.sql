@@ -7,7 +7,7 @@ VALUES
 ('Get man', '50 Cent and Eminem','The Massacre', '2005', true),
 ('Hasta Abajo', 'Don Omar','Onda Latina Summer 2010', '2010', false);
 
-INSERT INTO songs (song_id, reviewer, title, content, rating)
+INSERT INTO reviews (song_id, reviewer, title, content, rating)
 VALUES
 ('1', 'Evan', 'My Favorite', 'This website crushes it when it comes to awesome explanations', 3),
 ('2', 'Evan', 'My Favorite', 'This website crushes it when it comes to inspiring me', 3),
